@@ -61,10 +61,8 @@ Um sistema que ofereça uma lista de ações relacionadas ao **ticker** informad
 
 ## 📂 Estrutura do Projeto
 
-- `data/`: Contém os arquivos de dados utilizados no projeto.  
+- `dados/`: Contém os arquivos de dados utilizados no projeto.  
 - `notebooks/`: Análises exploratórias e desenvolvimento do modelo.  
-- `src/`: Código fonte do sistema de recomendação.  
-- `tests/`: Testes unitários para validação do sistema.  
 
 ## 📋 Como Contribuir
 
