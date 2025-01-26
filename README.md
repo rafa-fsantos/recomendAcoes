@@ -1,4 +1,3 @@
-```markdown
 # Sistema de Recomendação de Ações da B3 utilizando Vetores e Espaço Vetorial
 
 ## 📘 Descrição do Projeto
@@ -36,14 +35,14 @@ Um sistema que ofereça uma lista de ações relacionadas ao **ticker** informad
 - **Bibliotecas:**  
   - Pandas e NumPy (manipulação de dados)  
   - Scikit-learn (modelagem vetorial)  
-  - Matplotlib e Seaborn (visualização)  
+  - Nltk e Openpyxl (stemming e manipulação de planilhas Excel)  
 - **Base de Dados:** Informações setoriais e financeiras das empresas listadas na B3.  
 - **Outros:** Modelagem de vetores com técnicas de similaridade.
 
 ## 🚀 Como Funciona
 
 1. **Coleta de Dados:**  
-   Os dados são extraídos de fontes confiáveis que contêm informações sobre classificação setorial e listagem das empresas na B3.  
+   Os dados são extraídos da B3 de arquivo que contêm informações sobre classificação setorial e listagem das empresas.  
 
 2. **Processamento de Dados:**  
    As informações são organizadas em vetores, representando características como setor econômico, subsetor e segmento.  
@@ -52,7 +51,7 @@ Um sistema que ofereça uma lista de ações relacionadas ao **ticker** informad
    Dado um ticker informado, o sistema identifica ações similares usando métricas de distância vetorial, como **cosseno de similaridade**.  
 
 4. **Output:**  
-   Uma lista de ações relacionadas, acompanhada de justificativas claras baseadas nos critérios de semelhança.  
+   Uma lista de ações relacionadas, baseadas nos critérios de semelhança por setor econômico, subsetor, segmento e listagem na B3.  
 
 ## 📈 Benefícios
 
@@ -81,4 +80,5 @@ Este projeto está licenciado sob a licença MIT. Veja o arquivo `LICENSE` para 
 ---
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir **issues** ou enviar sugestões.  
-```
+
+
