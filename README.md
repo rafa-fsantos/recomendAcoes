@@ -4,6 +4,8 @@
 
 Este projeto tem como objetivo desenvolver um **sistema de recomendação de ações da B3 (Bolsa de Valores do Brasil)**. O sistema sugere ações relacionadas com base na classificação setorial das empresas, utilizando técnicas de vetores e espaço vetorial. Com isso, buscamos simplificar o processo de diversificação de carteiras para investidores, fornecendo recomendações fundamentadas e precisas.
 
+![RecomendAções](imagens/recomendAcoes.png)
+
 ## 🚩 Definição do Problema
 
 ### Objetivo
